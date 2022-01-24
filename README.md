@@ -15,9 +15,9 @@
   <img src="https://github.com/catppuccin/telegram/blob/main/assets/preview.png?raw=true"/>
 </p>
 
-## Telegram Desktop Theme will be coming **soon™**.
+# This is highly **WIP**!
 
-For now this theme is only available for Telegram on Android. I have plans to work on a theme for Telegram Desktop later on.
+The provided themes for **Telegram Desktop** and **Telegram on Android** do work for now, but will eventually be rendered obsolete once all themes are unified. You'll then be able to install them directly through Telegram as well.
 
 
 ## Usage
