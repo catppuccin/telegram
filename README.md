@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/catppuccin/telegram/blob/main/assets/preview.jpg?raw=true"/>
+  <img src="https://github.com/catppuccin/telegram/blob/main/assets/preview.png?raw=true"/>
 </p>
 
 ## Telegram Desktop Theme will be coming **soon™**.
