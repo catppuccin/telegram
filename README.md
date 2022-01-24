@@ -17,15 +17,19 @@
 
 # This is highly **WIP**!
 
-The provided themes for **Telegram Desktop** and **Telegram on Android** do work for now, but will eventually be rendered obsolete once all themes are unified. You'll then be able to install them directly through Telegram as well.
+If you apply the Theme via the instructions provided below it will **automagically** update, whenever updates to the Theme are published. c:
 
+#### To Do
+- [x] Desktop Theme
+- [ ] Android Theme
+- [ ] iOS Theme
+- [ ] macOS Theme
 
 ## Usage
 
-1. Download the either [Catppuccin.tdesktop-theme](https://github.com/catppuccin/telegram/blob/main/Catppuccin.tdesktop-theme) for Telegram Desktop, or [Catppuccin.attheme](https://github.com/catppuccin/telegram/blob/main/Catppuccin.attheme) for Android
-2. Send it to your saved messages via Telegram
-3. Click on the file to open the theme preview
-4. Hit »Apply«
+1. Go to https://t.me/addtheme/catppuccin_tg
+2. Open the link with your Telegram client of choice
+4. Apply the theme
 5. Enjoy! 
 
 
