@@ -4,7 +4,7 @@ dark: true
 windowBg: #1E1E2E
 windowFg: #D9E0EE
 windowBgOver: #161320
-windowBgRipple: #DDB6F2
+windowBgRipple: #302D41
 windowFgOver: windowFg
 windowSubTextFg: #6E6C7E
 windowSubTextFgOver: #6E6C7E
@@ -22,7 +22,7 @@ imageBg: #1A1826
 imageBgTransparent: #575268
 activeButtonBg: windowBgActive
 activeButtonBgOver: #DDB6F2
-activeButtonBgRipple: #F5C2E7
+activeButtonBgRipple: windowBgRipple
 activeButtonFg: #161320
 activeButtonFgOver: #1E1E2E
 activeButtonSecondaryFg: activeButtonFg
@@ -465,7 +465,7 @@ sideBarBg: #161320
 sideBarBgActive: #302D41
 sideBarBgRipple: #575268
 sideBarTextFg: #6E6C7E
-sideBarTextFgActive: #C3BAC6
+sideBarTextFgActive: #988BA2
 sideBarIconFg: sideBarTextFg
 sideBarIconFgActive: sideBarTextFgActive
 sideBarBadgeBg: #ABE9B3
