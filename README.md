@@ -21,7 +21,7 @@ If you apply the Theme via the instructions provided below it will **automagical
 
 #### To Do
 - [x] Desktop Theme
-- [ ] Android Theme
+- [x] Android Theme
 - [ ] iOS Theme
 - [ ] macOS Theme
 
