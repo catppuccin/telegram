@@ -17,17 +17,22 @@
 
 # This is highly **WIP**!
 
-If you apply the Theme via the instructions provided below it will **automagically** update, whenever updates to the Theme are published. c:
-
 #### To Do
-- [x] Desktop Theme
 - [x] Android Theme
-- [ ] iOS Theme
-- [ ] macOS Theme
+- [ ] Desktop Theme
+- [ ] iOS Theme — *help wanted*
+- [ ] macOS Theme — *help wanted*
 
 ## Usage
 
-1. Go to https://t.me/addtheme/catppuccin_tg
+> **Note** Currently only the android versions are properly available. Next to follow is Telegram Desktop.
+
+* [Latte](https://t.me/addtheme/ctp_latte)
+* [Frappé](https://t.me/addtheme/ctp_frappe)
+* [Macchiato](https://t.me/addtheme/ctp_macchiato)
+* [Mocha](https://t.me/addtheme/ctp_mocha)
+
+1. Chose your flavour from the list above
 2. Open the link with your Telegram client of choice
 4. Apply the theme
 5. Enjoy! 
