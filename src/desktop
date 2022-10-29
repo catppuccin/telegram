@@ -2,7 +2,7 @@ name: Catppuccin
 shortname: catppuccin_tg
 dark: true
 windowBg: #1E1E2E
-windowFg: #D9E0EE
+windowFg: #cdd6f4
 windowBgOver: #161320
 windowBgRipple: #302D41
 windowFgOver: windowFg
