@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 
 	"github.com/catppuccin/telegram/build/colors"
 )
@@ -16,7 +17,9 @@ func main() {
 		colors.MacchiatoColor(colorFlag)
 	} else if colorFlag == "frappe" {
 		colors.FrappeColor(colorFlag)
-	} else {
+	} else if colorFlag == "latte" {
 		colors.LatteColor(colorFlag)
+	} else {
+		fmt.Println("You've entered the wrong color.")
 	}
 }

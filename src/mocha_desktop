@@ -1,35 +1,35 @@
-name: {{.Name}}
-shortname: {{.Shortname}}
-dark: {{.Dark}}
+name: Catppuccin Mocha
+shortname: mocha
+dark: true
 
 // Palette 
 
-crust: {{.Crust}};
-mantle: {{.Mantle}};
-base: {{.Base}};
-surface0: {{.Surface0}};
-surface1: {{.Surface1}};
-surface2: {{.Surface2}};
-overlay0: {{.Overlay0}};
-overlay1: {{.Overlay1}};
-overlay2: {{.Overlay2}};
-subtext0: {{.Subtext0}};
-subtext1: {{.Subtext1}};
-text: {{.Text}};
-tlavender: {{.Lavender}};
-tblue: {{.Blue}};
-tsapphire: {{.Sapphire}};
-tsky: {{.Sky}};
-tteal: {{.Teal}};
-tgreen: {{.Green}};
-tyellow: {{.Yellow}};
-tpeach: {{.Peach}};
-tmaroon: {{.Maroon}};
-tred: {{.Red}};
-tmauve: {{.Mauve}};
-tpink: {{.Pink}};
-tflamingo: {{.Flamingo}};
-trosewater: {{.Rosewater}};
+crust: #11111b;
+mantle: #181825;
+base: #1e1e2e;
+surface0: #313244;
+surface1: #45475a;
+surface2: #585b70;
+overlay0: #6c7086;
+overlay1: #7f4849c;
+overlay2: #9399b2;
+subtext0: #a6adc8;
+subtext1: #bac2de;
+text: #cdd6f4;
+tlavender: #b4befe;
+tblue: #89b4fa;
+tsapphire: #74c7e6;
+tsky: #89dceb;
+tteal: #94e2d5;
+tgreen: #a6e3a1;
+tyellow: #f9e2af;
+tpeach: #fab387;
+tmaroon: #eba0ac;
+tred: #f38ba8;
+tmauve: #cba6f7;
+tpink: #f5c2e7;
+tflamingo: #f2cdcd;
+trosewater: #f5e0dc;
 
 // Theme variables 
 
@@ -47,7 +47,7 @@ windowFgActive: mantle
 windowActiveTextFg: tlavender
 windowShadowFg: mantle
 windowShadowFgFallback: mantle
-// shadowFg: {{.Mantle}}99
+// shadowFg: #18182599
 shadowFg: mantle
 // slideFadeOutBg: mantle33
 slideFadeOutBg: mantle
