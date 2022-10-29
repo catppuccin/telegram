@@ -51,7 +51,7 @@ func MochaColor(flag string) {
 		Maroon:    "#eba0ac",
 		Yellow:    "#f9e2af",
 		Peach:     "#fab387",
-		Green:     "#a63a1",
+		Green:     "#a6e3a1",
 		Teal:      "#94e2d5",
 		Sky:       "#89dceb",
 		Sapphire:  "#74c7e6",
@@ -75,6 +75,9 @@ func MochaColor(flag string) {
 
 func MacchiatoColor(flag string) {
 	c := Color{
+		Name:      "Catpppuccin Macchiato",
+		Shortname: "macchiato",
+		Dark:      true,
 		Rosewater: "#f5e0dc",
 		Flamingo:  "#f0c6c6",
 		Pink:      "#f5c2e7",
@@ -105,7 +108,76 @@ func MacchiatoColor(flag string) {
 	initTemplate(c, flag)
 }
 
-func initTemplate(colorStruct Color, flag string) (string, error) {
+func FrappeColor(flag string) {
+	c := Color{
+		Name:      "Catppuccin Frappe",
+		Shortname: "frappe",
+		Dark:      true,
+		Rosewater: "#f2d5cf",
+		Flamingo:  "#eebebe",
+		Pink:      "#f4b8e4",
+		Mauve:     "#ca9ee6",
+		Red:       "#e78284",
+		Maroon:    "#ea999c",
+		Peach:     "#ef9f76",
+		Yellow:    "#e5c890",
+		Green:     "#a6d189",
+		Teal:      "#81c8be",
+		Sky:       "#99d1db",
+		Sapphire:  "#85c1dc",
+		Blue:      "#8caaee",
+		Lavender:  "#babbf1",
+		Text:      "#c6d0f5",
+		Subtext1:  "#b5bfe2",
+		Subtext0:  "#a5adce",
+		Overlay2:  "#949cbb",
+		Overlay1:  "#838ba7",
+		Overlay0:  "#737994",
+		Surface2:  "#626880",
+		Surface1:  "#51576d",
+		Surface0:  "#414559",
+		Base:      "#303446",
+		Mantle:    "#292c3c",
+		Crust:     "#232634",
+	}
+	initTemplate(c, flag)
+}
+
+func LatteColor(flag string) {
+	c := Color{
+		Name:      "Catppuccin Latte",
+		Shortname: "latte",
+		Dark:      false,
+		Rosewater: "#dc8a78",
+		Flamingo:  "#dd7878",
+		Pink:      "#ea76cb",
+		Mauve:     "#8839ef",
+		Red:       "#d20f39",
+		Maroon:    "#e64553",
+		Peach:     "#fe640b",
+		Yellow:    "#df8e1d",
+		Green:     "#40a02b",
+		Teal:      "#179299",
+		Sky:       "#04a5e5",
+		Sapphire:  "#209fb5",
+		Blue:      "#1e66f5",
+		Lavender:  "#7287fd",
+		Text:      "#4c4f69",
+		Subtext1:  "#5c5f77",
+		Subtext0:  "#6c6f85",
+		Overlay2:  "#7c7f93",
+		Overlay1:  "#8c8fa1",
+		Overlay0:  "#9ca0b0",
+		Surface2:  "#acb0be",
+		Surface1:  "#bcc0cc",
+		Surface0:  "#ccd0da",
+		Base:      "#eff1f5",
+		Mantle:    "#e6e9ef",
+		Crust:     "#dce0e8",
+	}
+	initTemplate(c, flag)
+}
+func initTemplate(colorStruct Color, flag string) {
 
 	currentDir, _ := os.Getwd()
 	templatePath := path.Join(currentDir, "build")
@@ -124,7 +196,4 @@ func initTemplate(colorStruct Color, flag string) (string, error) {
 		panic(err)
 	}
 	f.Close()
-	returnString := "Mocha scheme generated."
-	return returnString, nil
-	// This is not complete please no judge me :kekw:
 }

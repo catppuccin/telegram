@@ -12,5 +12,11 @@ func main() {
 	flag.Parse()
 	if colorFlag == "mocha" {
 		colors.MochaColor(colorFlag)
+	} else if colorFlag == "macchiato" {
+		colors.MacchiatoColor(colorFlag)
+	} else if colorFlag == "frappe" {
+		colors.FrappeColor(colorFlag)
+	} else {
+		colors.LatteColor(colorFlag)
 	}
 }

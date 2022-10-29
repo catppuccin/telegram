@@ -2,7 +2,31 @@ name: {{.Name}}
 shortname: {{.Shortname}}
 dark: {{.Dark}}
 
-
 // Palette 
-Bg: {{.Crust}}
 
+crust: {{.Crust}}
+mantle: {{.Mantle}}
+base: {{.Base}}
+surface0: {{.Surface0}}
+surface1: {{.Surface1}}
+surface2: {{.Surface2}}
+overlay0: {{.Overlay0}}
+overlay1: {{.Overlay1}}
+overlay2: {{.Overlay2}}
+subtext0: {{.Subtext0}}
+subtext1: {{.Subtext1}}
+text: {{.Text}}
+lavender: {{.Lavender}}
+blue: {{.Blue}}
+sapphire: {{.Sapphire}}
+sky: {{.Sky}}
+teal: {{.Teal}}
+green: {{.Green}}
+yellow: {{.Yellow}}
+peach: {{.Peach}}
+maroon: {{.Maroon}}
+red: {{.Red}}
+mauve: {{.Mauve}}
+pink: {{.Pink}}
+flamingo: {{.Flamingo}}
+rosewater: {{.Rosewater}}
