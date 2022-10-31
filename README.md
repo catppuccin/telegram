@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/catppuccin/telegram/blob/main/assets/preview.png?raw=true"/>
+  <img src="assets/res.webp"/>
 </p>
 
 # This is highly **WIP**!
