@@ -15,6 +15,48 @@
   <img src="assets/res.webp"/>
 </p>
 
+## Previews
+
+<details>
+<summary>🖥 Desktop</summary>
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/desktop/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/desktop/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/desktop/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/desktop/mocha.webp"/>
+</details>
+</details>
+
+<details>
+<summary>📱 Mobile</summary>
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/mobile/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/mobile/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/mobile/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mobile/mocha.webp"/>
+</details>
+</details>
+
 # This is highly **WIP**!
 
 #### To Do
