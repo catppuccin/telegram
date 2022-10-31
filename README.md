@@ -62,7 +62,7 @@
 #### To Do
 - [x] iOS Theme
 - [x] Android Theme
-- [ ] Desktop Theme - *help wanted*
+- [x] Desktop Theme - *help wanted*
 - [ ] macOS Theme — *help wanted*
 
 ## Usage
