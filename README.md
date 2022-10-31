@@ -20,7 +20,7 @@
 #### To Do
 - [x] iOS Theme
 - [x] Android Theme
-- [ ] Desktop Theme
+- [ ] Desktop Theme - *help wanted*
 - [ ] macOS Theme — *help wanted*
 
 ## Usage
@@ -37,6 +37,11 @@
 4. Apply the theme
 5. Enjoy! 
 
+## 🐱 Development (for the desktop version)
+
+- The desktop version uses Go to build files for all flavours. To build a flavour, run `go run main.go --color <flavour-name>`. This creates a desktop theme file inside `src/<flavour-name>/<flavour-name>_desktop`.
+- You are supposed to change the colours inside the `build/template.go.tpl` file. 
+- Rebuild flavours after editing the template file. 
 
 ## 💝 Thanks to
 
