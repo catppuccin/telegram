@@ -1,5 +1,5 @@
 name: {{.Name}}
-shortname: {{.Shortname}}
+shortname: ctp_{{.Shortname}}
 dark: {{.Dark}}
 
 // Palette 
