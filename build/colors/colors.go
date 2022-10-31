@@ -186,7 +186,8 @@ func initTemplate(colorStruct Color, flag string) {
 		panic(err)
 	}
 	tmpl, _ := template.ParseFiles(fileTemp.Name())
-	themeLoc := path.Join(currentDir, "src", flag, flag)
+	themeFile := flag + "_desktop"
+	themeLoc := path.Join(currentDir, "src", flag, themeFile)
 	f, _ := os.Create(themeLoc)
 
 	template := colorStruct
