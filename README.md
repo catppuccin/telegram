@@ -67,7 +67,7 @@
 
 ## Usage
 
-> **Note** Currently only the android versions are properly available. Next to follow is Telegram Desktop.
+> **Note** Currently only the android, desktop and ios versions are properly available. Next to follow is MacOS.
 
 * [Latte](https://t.me/addtheme/ctp_latte)
 * [Frappé](https://t.me/addtheme/ctp_frappe)
