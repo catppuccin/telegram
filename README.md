@@ -18,9 +18,9 @@
 # This is highly **WIP**!
 
 #### To Do
+- [x] iOS Theme
 - [x] Android Theme
 - [ ] Desktop Theme
-- [x] iOS Theme
 - [ ] macOS Theme — *help wanted*
 
 ## Usage
