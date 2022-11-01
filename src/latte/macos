@@ -1,6 +1,6 @@
-name: Catppuccin Mocha
-shortname: ctp_mocha
-isDark: 1
+name: Catppuccin Latte
+shortname: ctp_latte
+isDark: 0
 tinted: 1
 
 // Palette
