@@ -57,22 +57,12 @@
 </details>
 </details>
 
-# This is highly **WIP**!
-
-#### To Do
-- [x] iOS Theme
-- [x] Android Theme
-- [x] Desktop Theme - *help wanted*
-- [ ] macOS Theme — *help wanted*
-
 ## Usage
 
-> **Note** Currently only the android, desktop and ios versions are properly available. Next to follow is MacOS.
-
-* [Latte](https://t.me/addtheme/ctp_latte)
-* [Frappé](https://t.me/addtheme/ctp_frappe)
-* [Macchiato](https://t.me/addtheme/ctp_macchiato)
-* [Mocha](https://t.me/addtheme/ctp_mocha)
+* [🌻 Latte](https://t.me/addtheme/ctp_latte)
+* [🪴 Frappé](https://t.me/addtheme/ctp_frappe)
+* [🌺 Macchiato](https://t.me/addtheme/ctp_macchiato)
+* [🌿 Mocha](https://t.me/addtheme/ctp_mocha)
 
 1. Chose your flavour from the list above
 2. Open the link with your Telegram client of choice
@@ -88,7 +78,9 @@
 ## 💝 Thanks to
 
 - [Andreas Grafen](https://github.com/andreasgrafen)
-
+- [ghostx31](https://github.com/ghostx31)
+- [Name](https://github.com/NamesCode)
+- [jasoncrevier](https://github.com/jasoncrevier)
 
 &nbsp;
 
