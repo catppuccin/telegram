@@ -1,163 +1,133 @@
+//metadata
+
 name: Catppuccin Mocha
 shortname: ctp_mocha
 isDark: 1
 tinted: 1
 
-// Palette
-
-crust: #11111b;
-mantle: #181825;
-base: #1e1e2e;
-surface0: #313244
-surface1: #45475a;
-surface2: #585b70;
-overlay0: #6c7086;
-overlay1: #7f849c;
-overlay2: #9399b2;
-subtext0: #a6adc8;
-subtext1: #bac2de;
-text: #cdd6f4;
-tlavender: #b4befe;
-tblue: #89b4fa;
-tsapphire: #74c7e6;
-tsky: #89dceb;
-tteal: #94e2d5;
-tgreen: #a6e3a1;
-tyellow: #f9e2af;
-tpeach: #fab387;
-tmaroon: #eba0ac;
-tred: #f38ba8;
-tmauve: #cba6f7;
-tpink: #f5c2e7;
-tflamingo: #f2cdcd;
-trosewater: #f5e0dc;
-
-// Theme variables
-
-//Fallback for parameters which didn't define. Available values=day, dayClassic, dark, nightAccent
+//Variables
 
 parent: dark
 copyright: Catppuccin
-basicAccent: tblue
-background: base
-text: text
-grayText: subtext1
-link: tsapphire
-accent: tblue
-redUI: tred
-greenUI: tgreen
-blackTransparent: crust
+basicAccent: #89b4fa //blue
+background: #1e1e2e //base
+text: #cdd6f4 //text
+grayText: #bac2de //subtext1
+link: #74c7e6 //sapphire
+accent: #89b4fa //blue
+redUI: #f38ba8 //red
+greenUI: #a6e3a1 //green
+blackTransparent: #11111b //crust
 grayTransparent: #31324499
-grayUI: base
-darkGrayText: subtext0
-accentSelect: tsky
-selectText: tsky
-border: surface0
-grayBackground: surface1
-grayForeground: surface1
-grayIcon: tgreen
-accentIcon: tmaroon
-badgeMuted: overlay1
-badge: tmaroon
-monospacedCodeBubble_outgoing: text
-indicatorColor: text
-selectMessage: base
-monospacedPre: tblue
-monospacedCode: tblue
-monospacedPreBubble_incoming: text
-monospacedPreBubble_outgoing: text
-monospacedCodeBubble_incoming: text
-selectTextBubble_incoming: tgreen
-selectTextBubble_outgoing: tsky
-bubbleBackground_incoming: surface0
-bubbleBackgroundTop_outgoing = base
-bubbleBackgroundBottom_outgoing = base
-bubbleBorder_incoming: surface0
-bubbleBorder_outgoing: base
-grayTextBubble_incoming: subtext1
-grayTextBubble_outgoing: text
-grayIconBubble_incoming: subtext1
-grayIconBubble_outgoing: subtext1
-accentIconBubble_incoming: subtext1
+grayUI: #1e1e2e //base
+darkGrayText: #a6adc8 //subtext0
+accentSelect: #89dceb //sky
+selectText: #89dceb //sky
+border: #313244 //surface0
+grayBackground: #45475a //surface1
+grayForeground: #45475a //surface1
+grayIcon: #a6e3a1 //green
+accentIcon: #eba0ac //maroon
+badgeMuted: #7f849c //overlay1
+badge: #eba0ac //maroon
+monospacedCodeBubble_outgoing: #cdd6f4 //text
+indicatorColor: #cdd6f4 //text
+selectMessage: #1e1e2e //base
+monospacedPre: #89b4fa //blue
+monospacedCode: #89b4fa //blue
+monospacedPreBubble_incoming: #cdd6f4 //text
+monospacedPreBubble_outgoing: #cdd6f4 //text
+monospacedCodeBubble_incoming: #cdd6f4 //text
+selectTextBubble_incoming: #a6e3a1 //green
+selectTextBubble_outgoing: #89dceb //sky
+bubbleBackground_incoming: #313244 //surface0
+bubbleBackgroundTop_outgoing = #1e1e2e //base
+bubbleBackgroundBottom_outgoing = #1e1e2e //base
+bubbleBorder_incoming: #313244 //surface0
+bubbleBorder_outgoing: #1e1e2e //base
+grayTextBubble_incoming: #bac2de //subtext1
+grayTextBubble_outgoing: #cdd6f4 //text
+grayIconBubble_incoming: #bac2de //subtext1
+grayIconBubble_outgoing: #bac2de //subtext1
+accentIconBubble_incoming: #bac2de //subtext1
 accentIconBubble_outgoing: #cdd6f4CC
-linkBubble_incoming: tsapphire
-linkBubble_outgoing: tsapphire
-textBubble_incoming: text
-textBubble_outgoing: text
-selectMessageBubble: surface1
+linkBubble_incoming: #74c7e6 //sapphire
+ //sapphirelinkBubble_outgoing: #74c7e6 //sapphire
+ //sapphire #cdd6f4 //textBubble_incoming: #cdd6f4 //text #cdd6f4 //textBubble_outgoing: #cdd6f4 //text
+selectMessageBubble: #45475a //surface1
 fileActivityBackground: #89b4faCC
-fileActivityForeground: text
-fileActivityBackgroundBubble_incoming: subtext1
-fileActivityBackgroundBubble_outgoing: text
-fileActivityForegroundBubble_incoming: surface1
-fileActivityForegroundBubble_outgoing: tsky
+fileActivityForeground: #cdd6f4 //text
+fileActivityBackgroundBubble_incoming: #bac2de //subtext1
+fileActivityBackgroundBubble_outgoing: #cdd6f4 //text
+fileActivityForegroundBubble_incoming: #45475a //surface1
+fileActivityForegroundBubble_outgoing: #89dceb //sky
 waveformBackground: #bac2deB3
 waveformForeground: #89b4faCC
-waveformBackgroundBubble_incoming: subtext1
-waveformBackgroundBubble_outgoing: subtext1
-waveformForegroundBubble_incoming: text
-waveformForegroundBubble_outgoing: text
-webPreviewActivity: tsapphire
-webPreviewActivityBubble_incoming: text
-webPreviewActivityBubble_outgoing: text
-redBubble_incoming: tred
-redBubble_outgoing: tred
-greenBubble_incoming: tgreen
-greenBubble_outgoing: tgreen
-chatReplyTitle: tsapphire
-chatReplyTextEnabled: text
-chatReplyTextDisabled: subtext1
-chatReplyTitleBubble_incoming: text
-chatReplyTitleBubble_outgoing: text
-chatReplyTextEnabledBubble_incoming: text
-chatReplyTextEnabledBubble_outgoing: text
-chatReplyTextDisabledBubble_incoming: subtext1
-chatReplyTextDisabledBubble_outgoing: subtext1
-groupPeerNameRed: tred
-groupPeerNameOrange: tpeach
-groupPeerNameViolet: tmauve
-groupPeerNameGreen: tteal
-groupPeerNameCyan: tteal
-groupPeerNameLightBlue: tsapphire
-groupPeerNameBlue: tblue
-peerAvatarRedTop: tpeach
-peerAvatarRedBottom: tmaroon
-peerAvatarOrangeTop: tyellow
-peerAvatarOrangeBottom: tpeach
-peerAvatarVioletTop: tlavender
-peerAvatarVioletBottom: tlavender
-peerAvatarGreenTop: tgreen
-peerAvatarGreenBottom: tgreen
-peerAvatarCyanTop: tteal
-peerAvatarCyanBottom: tteal
-peerAvatarBlueTop: tsky
-peerAvatarBlueBottom: tsapphire
-peerAvatarPinkTop: tteal
-peerAvatarPinkBottom: tmauve
-bubbleBackgroundHighlight_incoming: surface1
-bubbleBackgroundHighlight_outgoing: tsky
-chatDateActive: surface0
-chatDateText: subtext1
-revealAction_neutral1_background: tblue
-revealAction_neutral1_foreground: text
-revealAction_neutral2_background: tflamingo
-revealAction_neutral2_foreground: text
-revealAction_destructive_background: tred
-revealAction_destructive_foreground: text
-revealAction_constructive_background: tgreen
-revealAction_constructive_foreground: text
-revealAction_accent_background: tblue
-revealAction_accent_foreground: text
-revealAction_warning_background: tflamingo
-revealAction_warning_foreground: text
-revealAction_inactive_background: surface1
-revealAction_inactive_foreground: text
+waveformBackgroundBubble_incoming: #bac2de //subtext1
+waveformBackgroundBubble_outgoing: #bac2de //subtext1
+waveformForegroundBubble_incoming: #cdd6f4 //text
+waveformForegroundBubble_outgoing: #cdd6f4 //text
+webPreviewActivity: #74c7e6 //sapphire
+ //sapphirewebPreviewActivityBubble_incoming: #cdd6f4 //text
+webPreviewActivityBubble_outgoing: #cdd6f4 //text
+redBubble_incoming: #f38ba8 //red
+redBubble_outgoing: #f38ba8 //red
+greenBubble_incoming: #a6e3a1 //green
+greenBubble_outgoing: #a6e3a1 //green
+chatReplyTitle: #74c7e6 //sapphire
+ //sapphirechatReplyTextEnabled: #cdd6f4 //text
+c#7f849cyTextDisabled: #bac2de //subtext1
+chatReplyTitleBubble_incoming: #cdd6f4 //text
+chatReplyTitleBubble_outgoing: #cdd6f4 //text
+chatReplyTextEnabledBubble_incoming: #cdd6f4 //text
+chatReplyTextEnabledBubble_outgoing: #cdd6f4 //text
+c#7f849cyTextDisabledBuboming: #bac2de //subtext1
+c#7f849cyTextDisabledBubgoing: #bac2de //subtext1
+groupPeerNameRed: #f38ba8 //red
+groupPeerNameOrange: #fab387 //peach
+groupPeerNameViolet: #cba6f7 //mauve
+groupPeerNameGreen: #94e2d5 //teal
+groupPeerNameCyan: #94e2d5 //teal
+groupPeerNameLightBlue: #74c7e6 //sapphire
+ //sapphiregroupPeerNameBlue: #89b4fa //blue
+peerAvatarRedTop: #fab387 //peach
+peerAvatarRedBottom: #eba0ac //maroon
+peerAvatarOrangeTop: #f9e2af //yellow
+peerAvatarOrangeBottom: #fab387 //peach
+peerAvatarVioletTop: #b4befe //lavender
+peerAvatarVioletBottom: #b4befe //lavender
+peerAvatarGreenTop: #a6e3a1 //green
+peerAvatarGreenBottom: #a6e3a1 //green
+peerAvatarCyanTop: #94e2d5 //teal
+peerAvatarCyanBottom: #94e2d5 //teal
+peerAvatarBlueTop: #89dceb //sky
+peerAvatarBlueBottom: #74c7e6 //sapphire
+ //sapphirepeerAvatarPinkTop: #94e2d5 //teal
+peerAvatarPinkBottom: #cba6f7 //mauve
+bubbleBackgroundHighlight_incoming: #45475a //surface1
+bubbleBackgroundHighlight_outgoing: #89dceb //sky
+chatDateActive: #313244 //surface0
+c#7f849cText: #bac2de //subtext1
+revealAction_neutral1_background: #89b4fa //blue
+revealAction_neutral1_foreground: #cdd6f4 //text
+revealAction_neutral2_background: #f2cdcd //flamingo
+revealAction_neutral2_foreground: #cdd6f4 //text
+revealAction_destructive_background: #f38ba8 //red
+revealAction_destructive_foreground: #cdd6f4 //text
+revealAction_constructive_background: #a6e3a1 //green
+revealAction_constructive_foreground: #cdd6f4 //text
+revealAction_accent_background: #89b4fa //blue
+revealAction_accent_foreground: #cdd6f4 //text
+revealAction_warning_background: #f2cdcd //flamingo
+revealAction_warning_foreground: #cdd6f4 //text
+revealAction_inactive_background: #45475a //surface1
+revealAction_inactive_foreground: #cdd6f4 //text
 //Parameter is usually using for minimalistic chat mode, but also works as fallback for bubbles if wallpaper not installed
-chatBackground: surface0
-listBackground: surface0
-listGrayText: subtext1
-grayHighlight: surface0
-focusAnimationColor: tsapphire
-premium: tmauve
+chatBackground: #313244 //surface0
+listBackground: #313244 //surface0
+l#7f849cText: #bac2de //subtext1
+grayHighlight: #313244 //surface0
+focusAnimationColor: #74c7e6 //sapphire
+ //sapphirepremium: #cba6f7 //mauve
 //Parameter only affects bubble chat mode. Available values=none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%
 wallpaper: t.me/bg/dKs_8KaE6EjOAAAAJdGVJxSR5uU
