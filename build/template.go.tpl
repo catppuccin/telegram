@@ -394,7 +394,8 @@ youtubePlayIconFg: windowFgActive
 videoPlayIconBg: crust
 videoPlayIconFg: text
 toastBg: crust
-toastFg: windowFgActive
+// toastFg: windowFgActive
+toastFg: subtext1
 reportSpamBg: emojiPanHeaderBg
 reportSpamFg: windowFg
 historyToDownBg: windowBg
