@@ -316,6 +316,7 @@ chat_sentErrorIcon: #24273a
 chat_serviceIcon: #24273a
 chat_serviceLink: #24273a
 chat_serviceText: #24273a
+chat_serviceBackground: #b7bdf8
 chat_shareBackground: #6e738d66
 chat_shareBackgroundSelected: #6e738d99
 chat_status: #a6da95
@@ -418,7 +419,7 @@ dialogFloatingButton: #8aadf4
 dialogFloatingButtonPressed: #8aadf4
 dialogFloatingIcon: #24273a
 dialogGrayLine: #6e738d
-dialogIcon: #24273a
+dialogIcon: #cad3f5
 dialogInputField: #a5adcb
 dialogInputFieldActivated: #8aadf4
 dialogLineProgress: #8aadf4
