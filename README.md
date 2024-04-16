@@ -71,7 +71,7 @@
 
 ## 🐱 Development (for the desktop version)
 
-- The desktop version uses Go to build files for all flavours. To build a flavour, run `go run main.go --color <flavour-name>`. This creates a desktop theme file inside `src/<flavour-name>/<flavour-name>_desktop`.
+- The desktop version uses Go to build files for all flavours. To build a flavour, run `go run main.go --color <flavour-name>`. This creates a desktop theme file inside `src/<flavour-name>/<flavour-name>_desktop`. Use `--accent` flag to change accent color: `--accent ctpRed`; `ctpGreen` - default.
 - You are supposed to change the colours inside the `build/template.go.tpl` file. 
 - Rebuild flavours after editing the template file. 
 
