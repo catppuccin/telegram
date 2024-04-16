@@ -10,6 +10,8 @@ type Color struct {
 	Name      string
 	Shortname string
 	Dark      bool
+	Wallpaper string
+	Accent    string
 	Rosewater string
 	Flamingo  string
 	Pink      string
@@ -38,11 +40,13 @@ type Color struct {
 	Crust     string
 }
 
-func MochaColor(flag string) {
+func MochaColor(flag string, accent string) {
 	c := Color{
 		Name:      "Catppuccin Mocha",
 		Shortname: "mocha",
 		Dark:      true,
+		Wallpaper: "t.me/bg/iZumGdCBBVEBAAAAkZ7Gl0zmXZk",
+		Accent:    accent,
 		Rosewater: "#f5e0dc",
 		Flamingo:  "#f2cdcd",
 		Pink:      "#f5c2e7",
@@ -73,11 +77,13 @@ func MochaColor(flag string) {
 	initTemplate(c, flag)
 }
 
-func MacchiatoColor(flag string) {
+func MacchiatoColor(flag string, accent string) {
 	c := Color{
 		Name:      "Catpppuccin Macchiato",
 		Shortname: "macchiato",
 		Dark:      true,
+		Wallpaper: "t.me/bg/wrjDzHXw_VADAAAAYTt1ohXDJN4",
+		Accent:    accent,
 		Rosewater: "#f5e0dc",
 		Flamingo:  "#f0c6c6",
 		Pink:      "#f5c2e7",
@@ -108,11 +114,13 @@ func MacchiatoColor(flag string) {
 	initTemplate(c, flag)
 }
 
-func FrappeColor(flag string) {
+func FrappeColor(flag string, accent string) {
 	c := Color{
 		Name:      "Catppuccin Frappe",
 		Shortname: "frappe",
 		Dark:      true,
+		Wallpaper: "t.me/bg/psvRMp-j_VACAAAA6D6zUK3aWhs",
+		Accent:    accent,
 		Rosewater: "#f2d5cf",
 		Flamingo:  "#eebebe",
 		Pink:      "#f4b8e4",
@@ -143,11 +151,13 @@ func FrappeColor(flag string) {
 	initTemplate(c, flag)
 }
 
-func LatteColor(flag string) {
+func LatteColor(flag string, accent string) {
 	c := Color{
 		Name:      "Catppuccin Latte",
 		Shortname: "latte",
 		Dark:      false,
+		Wallpaper: "t.me/bg/StNc4pYj_FABAAAAOsWwdh_6J6I",
+		Accent:     accent,
 		Rosewater: "#dc8a78",
 		Flamingo:  "#dd7878",
 		Pink:      "#ea76cb",

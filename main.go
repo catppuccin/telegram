@@ -10,15 +10,17 @@ import (
 func main() {
 	var colorFlag string
 	flag.StringVar(&colorFlag, "color", "mocha", "some value")
+	var accentFlag string
+	flag.StringVar(&accentFlag, "accent", "ctpGreen", "some value")
 	flag.Parse()
 	if colorFlag == "mocha" {
-		colors.MochaColor(colorFlag)
+		colors.MochaColor(colorFlag, accentFlag)
 	} else if colorFlag == "macchiato" {
-		colors.MacchiatoColor(colorFlag)
+		colors.MacchiatoColor(colorFlag, accentFlag)
 	} else if colorFlag == "frappe" {
-		colors.FrappeColor(colorFlag)
+		colors.FrappeColor(colorFlag, accentFlag)
 	} else if colorFlag == "latte" {
-		colors.LatteColor(colorFlag)
+		colors.LatteColor(colorFlag, accentFlag)
 	} else {
 		fmt.Println("You've entered the wrong color.")
 	}
