@@ -1,0 +1,140 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "src/{{ flavor.identifier }}/macos"
+---
+//metadata
+
+name = Catppuccin {{ flavor.name }}
+shortname = ctp_{{ flavor.identifier }}
+isDark = {{ if(cond=flavor.dark, t=1, f=0) }}
+tinted = 1
+
+//Variables
+
+parent = {{ if(cond=flavor.dark, t="dark", f="light") }}
+copyright = Catppuccin
+basicAccent = #{{ blue.hex }}
+background = #{{ base.hex }}
+text = #{{ text.hex }}
+grayText = #{{ subtext1.hex }}
+link = #{{ sapphire.hex }}
+accent = #{{ blue.hex }}
+redUI = #{{ red.hex }}
+greenUI = #{{ green.hex }}
+blackTransparent = #{{ crust.hex }}
+grayTransparent = #{{ surface0 | mod(opacity=0.6) | get(key="hex") }}
+grayUI = #{{ base.hex }}
+darkGrayText = #{{ subtext0.hex }}
+accentSelect = #{{ sky.hex }}
+selectText = #{{ sky.hex }}
+border = #{{ surface0.hex }}
+grayBackground = #{{ surface1.hex }}
+grayForeground = #{{ surface1.hex }}
+grayIcon = #{{ green.hex }}
+accentIcon = #{{ maroon.hex }}
+badgeMuted = #{{ overlay1.hex }}
+badge = #{{ maroon.hex }}
+monospacedCodeBubble_outgoing = #{{ text.hex }}
+indicatorColor = #{{ text.hex }}
+selectMessage = #{{ base.hex }}
+monospacedPre = #{{ blue.hex }}
+monospacedCode = #{{ blue.hex }}
+monospacedPreBubble_incoming = #{{ text.hex }}
+monospacedPreBubble_outgoing = #{{ text.hex }}
+monospacedCodeBubble_incoming = #{{ text.hex }}
+selectTextBubble_incoming = #{{ green.hex }}
+selectTextBubble_outgoing = #{{ sky.hex }}
+bubbleBackground_incoming = #{{ surface0.hex }}
+bubbleBackgroundTop_outgoing = #{{ base.hex }}
+bubbleBackgroundBottom_outgoing = #{{ base.hex }}
+bubbleBorder_incoming = #{{ surface0.hex }}
+bubbleBorder_outgoing = #{{ base.hex }}
+grayTextBubble_incoming = #{{ subtext1.hex }}
+grayTextBubble_outgoing = #{{ text.hex }}
+grayIconBubble_incoming = #{{ subtext1.hex }}
+grayIconBubble_outgoing = #{{ subtext1.hex }}
+accentIconBubble_incoming = #{{ subtext1.hex }}
+accentIconBubble_outgoing = #{{ text | mod(opacity=0.8) | get(key="hex") }}
+linkBubble_incoming = #{{ sapphire.hex }}
+//sapphirelinkBubble_outgoing = #{{ sapphire.hex }}
+//sapphire #{{ text.hex }}_incoming = #{{ text.hex }} #{{ text.hex }}_outgoing = #{{ text.hex }}
+selectMessageBubble = #{{ surface1.hex }}
+fileActivityBackground = #{{ blue | mod(opacity=0.8) | get(key="hex") }}
+fileActivityForeground = #{{ text.hex }}
+fileActivityBackgroundBubble_incoming = #{{ subtext1.hex }}
+fileActivityBackgroundBubble_outgoing = #{{ text.hex }}
+fileActivityForegroundBubble_incoming = #{{ surface1.hex }}
+fileActivityForegroundBubble_outgoing = #{{ sky.hex }}
+waveformBackground = #{{ subtext1 | mod(opacity=0.7) | get(key="hex") }}
+waveformForeground = #{{ blue | mod(opacity=0.8) | get(key="hex") }}
+waveformBackgroundBubble_incoming = #{{ subtext1.hex }}
+waveformBackgroundBubble_outgoing = #{{ subtext1.hex }}
+waveformForegroundBubble_incoming = #{{ text.hex }}
+waveformForegroundBubble_outgoing = #{{ text.hex }}
+webPreviewActivity = #{{ sapphire.hex }}
+//sapphirewebPreviewActivityBubble_incoming = #{{ text.hex }}
+webPreviewActivityBubble_outgoing = #{{ text.hex }}
+redBubble_incoming = #{{ red.hex }}
+redBubble_outgoing = #{{ red.hex }}
+greenBubble_incoming = #{{ green.hex }}
+greenBubble_outgoing = #{{ green.hex }}
+chatReplyTitle = #{{ sapphire.hex }}
+//sapphirechatReplyTextEnabled = #{{ text.hex }}
+c#{{ overlay1.hex }}yTextDisabled = #{{ subtext1.hex }}
+chatReplyTitleBubble_incoming = #{{ text.hex }}
+chatReplyTitleBubble_outgoing = #{{ text.hex }}
+chatReplyTextEnabledBubble_incoming = #{{ text.hex }}
+chatReplyTextEnabledBubble_outgoing = #{{ text.hex }}
+c#{{ overlay1.hex }}yTextDisabledBuboming = #{{ subtext1.hex }}
+c#{{ overlay1.hex }}yTextDisabledBubgoing = #{{ subtext1.hex }}
+groupPeerNameRed = #{{ red.hex }}
+groupPeerNameOrange = #{{ peach.hex }}
+groupPeerNameViolet = #{{ mauve.hex }}
+groupPeerNameGreen = #{{ teal.hex }}
+groupPeerNameCyan = #{{ teal.hex }}
+groupPeerNameLightBlue = #{{ sapphire.hex }}
+//sapphiregroupPeerNameBlue = #{{ blue.hex }}
+peerAvatarRedTop = #{{ peach.hex }}
+peerAvatarRedBottom = #{{ maroon.hex }}
+peerAvatarOrangeTop = #{{ yellow.hex }}
+peerAvatarOrangeBottom = #{{ peach.hex }}
+peerAvatarVioletTop = #{{ lavender.hex }}
+peerAvatarVioletBottom = #{{ lavender.hex }}
+peerAvatarGreenTop = #{{ green.hex }}
+peerAvatarGreenBottom = #{{ green.hex }}
+peerAvatarCyanTop = #{{ teal.hex }}
+peerAvatarCyanBottom = #{{ teal.hex }}
+peerAvatarBlueTop = #{{ sky.hex }}
+peerAvatarBlueBottom = #{{ sapphire.hex }}
+//sapphirepeerAvatarPinkTop = #{{ teal.hex }}
+peerAvatarPinkBottom = #{{ mauve.hex }}
+bubbleBackgroundHighlight_incoming = #{{ surface1.hex }}
+bubbleBackgroundHighlight_outgoing = #{{ sky.hex }}
+chatDateActive = #{{ surface0.hex }}
+c#{{ overlay1.hex }}Text = #{{ subtext1.hex }}
+revealAction_neutral1_background = #{{ blue.hex }}
+revealAction_neutral1_foreground = #{{ text.hex }}
+revealAction_neutral2_background = #{{ flamingo.hex }}
+revealAction_neutral2_foreground = #{{ text.hex }}
+revealAction_destructive_background = #{{ red.hex }}
+revealAction_destructive_foreground = #{{ text.hex }}
+revealAction_constructive_background = #{{ green.hex }}
+revealAction_constructive_foreground = #{{ text.hex }}
+revealAction_accent_background = #{{ blue.hex }}
+revealAction_accent_foreground = #{{ text.hex }}
+revealAction_warning_background = #{{ flamingo.hex }}
+revealAction_warning_foreground = #{{ text.hex }}
+revealAction_inactive_background = #{{ surface1.hex }}
+revealAction_inactive_foreground = #{{ text.hex }}
+//Parameter is usually using for minimalistic chat mode, but also works as fallback for bubbles if wallpaper not installed
+chatBackground = #{{ surface0.hex }}
+listBackground = #{{ surface0.hex }}
+l#{{ overlay1.hex }}Text = #{{ subtext1.hex }}
+grayHighlight = #{{ surface0.hex }}
+focusAnimationColor = #{{ sapphire.hex }}
+//sapphirepremium = #{{ mauve.hex }}
+//Parameter only affects bubble chat mode. Available values=none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%
+wallpaper = t.me/bg/dKs_8KaE6EjOAAAAJdGVJxSR5uU
