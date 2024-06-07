@@ -1,4 +1,4 @@
-name: Catpppuccin Macchiato
+name: Catppuccin Macchiato
 shortname: ctp_macchiato
 dark: true
 wallpaper: t.me/bg/wrjDzHXw_VADAAAAYTt1ohXDJN4 // link to cloud wallpaper
@@ -24,10 +24,10 @@ ctpOverlay1Transparent: #8087a2cc;
 ctpOverlay2: #939ab7;
 ctpOverlay2Transparent: #939ab7cc;
 ctpPeach: #f5a97f;
-ctpPink: #f5c2e7;
+ctpPink: #f5bde6;
 ctpRed: #ed8796;
-ctpRosewater: #f5e0dc;
-ctpRosewaterTransparent: #f5e0dccc;
+ctpRosewater: #f4dbd6;
+ctpRosewaterTransparent: #f4dbd6cc;
 ctpSapphire: #7dc4e4;
 ctpSky: #91d7e3;
 ctpSubtext0: #a5adcb;

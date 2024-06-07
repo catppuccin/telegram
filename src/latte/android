@@ -1,5 +1,6 @@
 name: Catppuccin Latte
 shortname: ctp_latte
+dark: false
 actionBarActionModeDefault: #eff1f5
 actionBarActionModeDefaultIcon: #9ca0b0
 actionBarActionModeDefaultSelector: #bcc0cc
@@ -13,8 +14,8 @@ actionBarDefaultArchivedSelector: #7c7f93
 actionBarDefaultArchivedTitle: #4c4f69
 actionBarDefaultIcon: #6c6f85
 actionBarDefaultSearch: #6c6f85
-actionBarDefaultSearchArchivedPlaceholder: #dce0e888
-actionBarDefaultSearchPlaceholder: #dce0e888
+actionBarDefaultSearchArchivedPlaceholder: #dce0e880
+actionBarDefaultSearchPlaceholder: #dce0e880
 actionBarDefaultSelector: #7c7f93
 actionBarDefaultSubmenuBackground: #eff1f5
 actionBarDefaultSubmenuItem: #4c4f69
@@ -115,7 +116,7 @@ chat_goDownButtonCounter: #eff1f5
 chat_goDownButtonCounterBackground: #40a02b
 chat_goDownButtonIcon: #6c6f85
 chat_goDownButtonShadow: #000000
-chat_inAudioCacheSeekbar: #eff1f53F
+chat_inAudioCacheSeekbar: #eff1f540
 chat_inAudioDurationSelectedText: #4c4f69
 chat_inAudioDurationText: #6c6f85
 chat_inAudioPerfomerSelectedText: #4c4f69
@@ -217,7 +218,7 @@ chat_messagePanelVoiceShadow: #0000000D
 chat_messageTextIn: #4c4f69
 chat_messageTextOut: #4c4f69
 chat_muteIcon: #9ca0b0
-chat_outAudioCacheSeekbar: #eff1f53F
+chat_outAudioCacheSeekbar: #eff1f540
 chat_outAudioDurationSelectedText: #4c4f69
 chat_outAudioDurationText: #6c6f85
 chat_outAudioPerfomerSelectedText: #4c4f69
