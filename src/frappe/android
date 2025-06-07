@@ -1,4 +1,4 @@
-name: Catppuccin Frappe
+name: Catppuccin Frappé
 shortname: ctp_frappe
 dark: true
 actionBarActionModeDefault: #303446
@@ -14,8 +14,8 @@ actionBarDefaultArchivedSelector: #949cbb
 actionBarDefaultArchivedTitle: #c6d0f5
 actionBarDefaultIcon: #a5adce
 actionBarDefaultSearch: #a5adce
-actionBarDefaultSearchArchivedPlaceholder: #23263488
-actionBarDefaultSearchPlaceholder: #23263488
+actionBarDefaultSearchArchivedPlaceholder: #23263480
+actionBarDefaultSearchPlaceholder: #23263480
 actionBarDefaultSelector: #949cbb
 actionBarDefaultSubmenuBackground: #303446
 actionBarDefaultSubmenuItem: #c6d0f5
@@ -116,7 +116,7 @@ chat_goDownButtonCounter: #303446
 chat_goDownButtonCounterBackground: #a6d189
 chat_goDownButtonIcon: #a5adce
 chat_goDownButtonShadow: #000000
-chat_inAudioCacheSeekbar: #3034463F
+chat_inAudioCacheSeekbar: #30344640
 chat_inAudioDurationSelectedText: #c6d0f5
 chat_inAudioDurationText: #a5adce
 chat_inAudioPerfomerSelectedText: #c6d0f5
@@ -218,7 +218,7 @@ chat_messagePanelVoiceShadow: #0000000D
 chat_messageTextIn: #c6d0f5
 chat_messageTextOut: #c6d0f5
 chat_muteIcon: #737994
-chat_outAudioCacheSeekbar: #3034463F
+chat_outAudioCacheSeekbar: #30344640
 chat_outAudioDurationSelectedText: #c6d0f5
 chat_outAudioDurationText: #a5adce
 chat_outAudioPerfomerSelectedText: #c6d0f5

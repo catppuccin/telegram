@@ -1,0 +1,608 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "src/{{ flavor.identifier }}/android"
+---
+name: Catppuccin {{ flavor.name }}
+shortname: ctp_{{ flavor.identifier }}
+dark: {{ flavor.dark | as_str }}
+actionBarActionModeDefault: #{{ base.hex }}
+actionBarActionModeDefaultIcon: #{{ overlay0.hex }}
+actionBarActionModeDefaultSelector: #{{ surface1.hex }}
+actionBarActionModeDefaultTop: #00000010
+actionBarBrowser: #{{ base.hex }}
+actionBarDefault: #{{ crust.hex }}
+actionBarDefaultArchived: #{{ crust.hex }}
+actionBarDefaultArchivedIcon: #{{ subtext0.hex }}
+actionBarDefaultArchivedSearch: #{{ subtext0.hex }}
+actionBarDefaultArchivedSelector: #{{ overlay2.hex }}
+actionBarDefaultArchivedTitle: #{{ text.hex }}
+actionBarDefaultIcon: #{{ subtext0.hex }}
+actionBarDefaultSearch: #{{ subtext0.hex }}
+actionBarDefaultSearchArchivedPlaceholder: #{{ crust | mod(opacity=0.5) | get(key="hex") }}
+actionBarDefaultSearchPlaceholder: #{{ crust | mod(opacity=0.5) | get(key="hex") }}
+actionBarDefaultSelector: #{{ overlay2.hex }}
+actionBarDefaultSubmenuBackground: #{{ base.hex }}
+actionBarDefaultSubmenuItem: #{{ text.hex }}
+actionBarDefaultSubmenuItemIcon: #{{ subtext0.hex }}
+actionBarDefaultSubtitle: #{{ overlay1.hex }}
+actionBarDefaultTitle: #{{ text.hex }}
+actionBarTabActiveText: #{{ text.hex }}
+actionBarTabLine: #{{ text.hex }}
+actionBarTabSelector: #{{ surface1.hex }}
+actionBarTabUnactiveText: #{{ overlay1.hex }}
+actionBarWhiteSelector: #{{ overlay2.hex }}
+avatar_actionBarIconBlue: #{{ subtext0.hex }}
+avatar_actionBarSelectorBlue: #{{ overlay2.hex }}
+avatar_backgroundActionBarBlue: #{{ crust.hex }}
+avatar_backgroundArchived: #{{ overlay1.hex }}
+avatar_backgroundArchivedHidden: #{{ overlay1.hex }}
+avatar_backgroundBlue: #{{ blue.hex }}
+avatar_backgroundCyan: #{{ teal.hex }}
+avatar_backgroundGreen: #{{ green.hex }}
+avatar_backgroundGroupCreateSpanBlue: #{{ rosewater.hex }}
+avatar_backgroundInProfileBlue: #dc2286
+avatar_backgroundOrange: #{{ peach.hex }}
+avatar_backgroundPink: #{{ pink.hex }}
+avatar_backgroundRed: #{{ red.hex }}
+avatar_backgroundSaved: #{{ mauve.hex }}
+avatar_backgroundViolet: #{{ mauve.hex }}
+avatar_nameInMessageBlue: #{{ blue.hex }}
+avatar_nameInMessageCyan: #{{ teal.hex }}
+avatar_nameInMessageGreen: #{{ green.hex }}
+avatar_nameInMessageOrange: #{{ peach.hex }}
+avatar_nameInMessagePink: #{{ pink.hex }}
+avatar_nameInMessageRed: #{{ red.hex }}
+avatar_nameInMessageViolet: #{{ mauve.hex }}
+avatar_subtitleInProfileBlue: #{{ overlay1.hex }}
+avatar_text: #{{ base.hex }}
+calls_callReceivedGreenIcon: #{{ green.hex }}
+calls_callReceivedRedIcon: #{{ red.hex }}
+changephoneinfo_image2: #{{ blue.hex }}
+changephoneinfo_image: #{{ text.hex }}
+chat_addContact: #{{ mauve.hex }}
+chat_adminSelectedText: #{{ text.hex }}
+chat_adminText: #{{ text.hex }}
+chat_attachActiveTab: #{{ blue.hex }}
+chat_attachAudioBackground: #{{ red.hex }}
+chat_attachAudioIcon: #{{ base.hex }}
+chat_attachCheckBoxBackground: #{{ blue.hex }}
+chat_attachCheckBoxCheck: #{{ base.hex }}
+chat_attachContactBackground: #{{ yellow.hex }}
+chat_attachContactIcon: #{{ base.hex }}
+chat_attachEmptyImage: #{{ overlay0.hex }}
+chat_attachFileBackground: #{{ teal.hex }}
+chat_attachFileIcon: #{{ base.hex }}
+chat_attachGalleryBackground: #{{ blue.hex }}
+chat_attachGalleryIcon: #{{ base.hex }}
+chat_attachLocationBackground: #{{ green.hex }}
+chat_attachLocationIcon: #{{ base.hex }}
+chat_attachMediaBanBackground: #{{ overlay2.hex }}
+chat_attachMediaBanText: #{{ base.hex }}
+chat_attachPermissionImage: #{{ base.hex }}
+chat_attachPermissionMark: #{{ red.hex }}
+chat_attachPermissionText: #{{ subtext0.hex }}
+chat_attachPhotoBackground: #00000008
+chat_attachPollBackground: #{{ yellow.hex }}
+chat_attachPollIcon: #{{ base.hex }}
+chat_attachUnactiveTab: #{{ subtext0.hex }}
+chat_botButtonText: #{{ base.hex }}
+chat_botKeyboardButtonBackground: #{{ mauve.hex }}
+chat_botKeyboardButtonBackgroundPressed: #{{ pink.hex }}
+chat_botKeyboardButtonText: #{{ base.hex }}
+chat_botProgress: #{{ base.hex }}
+chat_botSwitchToInlineText: #{{ rosewater.hex }}
+chat_emojiBottomPanelIcon: #{{ overlay2.hex }}
+chat_emojiPanelBackground: #{{ crust.hex }}
+chat_emojiPanelBackspace: #{{ overlay2.hex }}
+chat_emojiPanelBadgeBackground: #{{ blue.hex }}
+chat_emojiPanelBadgeText: #{{ base.hex }}
+chat_emojiPanelEmptyText: #{{ overlay2.hex }}
+chat_emojiPanelIcon: #{{ overlay2.hex }}
+chat_emojiPanelIconSelected: #{{ blue.hex }}
+chat_emojiPanelMasksIcon: #{{ base.hex }}
+chat_emojiPanelMasksIconSelected: #{{ blue.hex }}
+chat_emojiPanelNewTrending: #{{ blue.hex }}
+chat_emojiPanelShadowLine: #00000012
+chat_emojiPanelStickerPackSelector: #{{ surface2.hex }}
+chat_emojiPanelStickerPackSelectorLine: #{{ surface2.hex }}
+chat_emojiPanelStickerSetName: #{{ subtext0.hex }}
+chat_emojiPanelStickerSetNameHighlight: #{{ subtext0.hex }}
+chat_emojiPanelStickerSetNameIcon: #{{ subtext0.hex }}
+chat_emojiPanelTrendingDescription: #{{ subtext0.hex }}
+chat_emojiPanelTrendingTitle: #{{ text.hex }}
+chat_emojiSearchBackground: #{{ surface0.hex }}
+chat_emojiSearchIcon: #{{ subtext0.hex }}
+chat_fieldOverlayText: #{{ subtext0.hex }}
+chat_gifSaveHintBackground: #000000CC
+chat_gifSaveHintText: #{{ base.hex }}
+chat_goDownButton: #{{ base.hex }}
+chat_goDownButtonCounter: #{{ base.hex }}
+chat_goDownButtonCounterBackground: #{{ green.hex }}
+chat_goDownButtonIcon: #{{ subtext0.hex }}
+chat_goDownButtonShadow: #000000
+chat_inAudioCacheSeekbar: #{{ base | mod(opacity=0.25) | get(key="hex") }}
+chat_inAudioDurationSelectedText: #{{ text.hex }}
+chat_inAudioDurationText: #{{ subtext0.hex }}
+chat_inAudioPerfomerSelectedText: #{{ text.hex }}
+chat_inAudioPerfomerText: #{{ text.hex }}
+chat_inAudioProgress: #{{ blue.hex }}
+chat_inAudioSeekbar: #{{ overlay0.hex }}
+chat_inAudioSeekbarFill: #{{ rosewater.hex }}
+chat_inAudioSeekbarSelected: #{{ overlay0.hex }}
+chat_inAudioSelectedProgress: #{{ rosewater.hex }}
+chat_inAudioTitleText: #{{ blue.hex }}
+chat_inBubble: #{{ base.hex }}
+chat_inBubbleSelected: #{{ surface0.hex }}
+chat_inBubbleShadow: #00000000
+chat_inContactBackground: #{{ green.hex }}
+chat_inContactIcon: #{{ base.hex }}
+chat_inContactNameText: #{{ green.hex }}
+chat_inContactPhoneSelectedText: #{{ text.hex }}
+chat_inContactPhoneText: #{{ subtext0.hex }}
+chat_inDownCall: #{{ green.hex }}
+chat_inFileBackground: #{{ teal.hex }}
+chat_inFileBackgroundSelected: #{{ teal.hex }}
+chat_inFileIcon: #{{ base.hex }}
+chat_inFileInfoSelectedText: #{{ text.hex }}
+chat_inFileInfoText: #{{ subtext0.hex }}
+chat_inFileNameText: #{{ rosewater.hex }}
+chat_inFileProgress: #{{ subtext0.hex }}
+chat_inFileProgressSelected: #{{ subtext0.hex }}
+chat_inFileSelectedIcon: #{{ base.hex }}
+chat_inForwardedNameText: #{{ mauve.hex }}
+chat_inInstant: #{{ mauve.hex }}
+chat_inInstantSelected: #{{ mauve.hex }}
+chat_inLoader: #{{ text.hex }}
+chat_inLoaderPhoto: #{{ text.hex }}
+chat_inLoaderPhotoIcon: #{{ base.hex }}
+chat_inLoaderPhotoIconSelected: #{{ base.hex }}
+chat_inLoaderPhotoSelected: #{{ text.hex }}
+chat_inLoaderSelected: #{{ text.hex }}
+chat_inLocationBackground: #{{ green.hex }}
+chat_inLocationIcon: #{{ base.hex }}
+chat_inMediaIcon: #{{ base.hex }}
+chat_inMediaIconSelected: #{{ base.hex }}
+chat_inMenu: #{{ overlay0.hex }}
+chat_inMenuSelected: #{{ overlay0.hex }}
+chat_inPreviewInstantSelectedText: #{{ text.hex }}
+chat_inPreviewInstantText: #{{ text.hex }}
+chat_inPreviewLine: #{{ blue.hex }}
+chat_inReplyLine: #{{ rosewater.hex }}
+chat_inReplyMediaMessageSelectedText: #{{ overlay0.hex }}
+chat_inReplyMediaMessageText: #{{ overlay0.hex }}
+chat_inReplyMessageText: #{{ overlay0.hex }}
+chat_inReplyNameText: #{{ rosewater.hex }}
+chat_inSentClock: #{{ overlay0.hex }}
+chat_inSentClockSelected: #{{ overlay0.hex }}
+chat_inSiteNameText: #{{ rosewater.hex }}
+chat_inTimeSelectedText: #{{ text.hex }}
+chat_inTimeText: #{{ overlay0.hex }}
+chat_inUpCall: #{{ red.hex }}
+chat_inVenueInfoSelectedText: #{{ text.hex }}
+chat_inVenueInfoText: #{{ text.hex }}
+chat_inViaBotNameText: #{{ blue.hex }}
+chat_inViews: #{{ text.hex }}
+chat_inViewsSelected: #{{ text.hex }}
+chat_inVoiceSeekbar: #{{ overlay0.hex }}
+chat_inVoiceSeekbarFill: #{{ text.hex }}
+chat_inVoiceSeekbarSelected: #{{ overlay0.hex }}
+chat_inlineResultIcon: #{{ blue.hex }}
+chat_linkSelectBackground: #{{ blue.hex }}33
+chat_lockIcon: #{{ base.hex }}
+chat_mediaBroadcast: #{{ base.hex }}
+chat_mediaInfoText: #{{ base.hex }}
+chat_mediaLoaderPhoto: #00000066
+chat_mediaLoaderPhotoIcon: #{{ base.hex }}
+chat_mediaLoaderPhotoIconSelected: #{{ base.hex }}
+chat_mediaLoaderPhotoSelected: #0000007F
+chat_mediaMenu: #{{ base.hex }}
+chat_mediaProgress: #{{ base.hex }}
+chat_mediaSentCheck: #{{ base.hex }}
+chat_mediaSentClock: #{{ base.hex }}
+chat_mediaTimeBackground: #00000066
+chat_mediaTimeText: #{{ base.hex }}
+chat_mediaViews: #{{ base.hex }}
+chat_messageLinkIn: #{{ rosewater.hex }}
+chat_messageLinkOut: #{{ rosewater.hex }}
+chat_messagePanelBackground: #{{ base.hex }}
+chat_messagePanelCancelInlineBot: #{{ overlay0.hex }}
+chat_messagePanelCursor: #{{ rosewater.hex }}
+chat_messagePanelHint: #{{ overlay0.hex }}
+chat_messagePanelIcons: #{{ subtext0.hex }}
+chat_messagePanelPressedSend: #{{ text.hex }}
+chat_messagePanelSend: #{{ subtext0.hex }}
+chat_messagePanelShadow: #00000000
+chat_messagePanelText: #{{ text.hex }}
+chat_messagePanelVideoFrame: #{{ mauve.hex }}
+chat_messagePanelVoiceBackground: #{{ mauve.hex }}
+chat_messagePanelVoiceDelete: #{{ crust.hex }}
+chat_messagePanelVoiceDuration: #{{ overlay0.hex }}
+chat_messagePanelVoicePressed: #{{ base.hex }}
+chat_messagePanelVoiceShadow: #0000000D
+chat_messageTextIn: #{{ text.hex }}
+chat_messageTextOut: #{{ text.hex }}
+chat_muteIcon: #{{ overlay0.hex }}
+chat_outAudioCacheSeekbar: #{{ base | mod(opacity=0.25) | get(key="hex") }}
+chat_outAudioDurationSelectedText: #{{ text.hex }}
+chat_outAudioDurationText: #{{ subtext0.hex }}
+chat_outAudioPerfomerSelectedText: #{{ text.hex }}
+chat_outAudioPerfomerText: #{{ text.hex }}
+chat_outAudioProgress: #{{ blue.hex }}
+chat_outAudioSeekbar: #{{ overlay0.hex }}
+chat_outAudioSeekbarFill: #{{ rosewater.hex }}
+chat_outAudioSeekbarSelected: #{{ overlay0.hex }}
+chat_outAudioSelectedProgress: #{{ rosewater.hex }}
+chat_outAudioTitleText: #{{ blue.hex }}
+chat_outBroadcast: #{{ green.hex }}
+chat_outBubble: #{{ mantle.hex }}
+chat_outBubbleSelected: #{{ surface0.hex }}
+chat_outBubbleShadow: #00000000
+chat_outContactBackground: #{{ green.hex }}
+chat_outContactIcon: #{{ base.hex }}
+chat_outContactNameText: #{{ green.hex }}
+chat_outContactPhoneSelectedText: #{{ text.hex }}
+chat_outContactPhoneText: #{{ subtext0.hex }}
+chat_outFileBackground: #{{ teal.hex }}
+chat_outFileBackgroundSelected: #{{ teal.hex }}
+chat_outFileIcon: #{{ base.hex }}
+chat_outFileInfoSelectedText: #{{ text.hex }}
+chat_outFileInfoText: #{{ subtext0.hex }}
+chat_outFileNameText: #{{ rosewater.hex }}
+chat_outFileProgress: #{{ subtext0.hex }}
+chat_outFileProgressSelected: #{{ subtext0.hex }}
+chat_outFileSelectedIcon: #{{ base.hex }}
+chat_outForwardedNameText: #{{ mauve.hex }}
+chat_outInstant: #{{ mauve.hex }}
+chat_outInstantSelected: #{{ mauve.hex }}
+chat_outLoader: #{{ text.hex }}
+chat_outLoaderPhoto: #{{ text.hex }}
+chat_outLoaderPhotoIcon: #{{ base.hex }}
+chat_outLoaderPhotoIconSelected: #{{ base.hex }}
+chat_outLoaderPhotoSelected: #{{ text.hex }}
+chat_outLoaderSelected: #{{ text.hex }}
+chat_outLocationBackground: #{{ green.hex }}
+chat_outLocationIcon: #{{ base.hex }}
+chat_outMediaIcon: #{{ base.hex }}
+chat_outMediaIconSelected: #{{ base.hex }}
+chat_outMenu: #{{ overlay0.hex }}
+chat_outMenuSelected: #{{ overlay0.hex }}
+chat_outPreviewInstantSelectedText: #{{ text.hex }}
+chat_outPreviewInstantText: #{{ text.hex }}
+chat_outPreviewLine: #{{ blue.hex }}
+chat_outReplyLine: #{{ rosewater.hex }}
+chat_outReplyMediaMessageSelectedText: #{{ overlay0.hex }}
+chat_outReplyMediaMessageText: #{{ overlay0.hex }}
+chat_outReplyMessageText: #{{ overlay0.hex }}
+chat_outReplyNameText: #{{ rosewater.hex }}
+chat_outSentCheck: #{{ overlay0.hex }}
+chat_outSentCheckRead: #{{ overlay0.hex }}
+chat_outSentCheckReadSelected: #{{ rosewater.hex }}
+chat_outSentCheckSelected: #{{ rosewater.hex }}
+chat_outSentClock: #{{ overlay0.hex }}
+chat_outSentClockSelected: #{{ overlay0.hex }}
+chat_outSiteNameText: #{{ rosewater.hex }}
+chat_outTimeSelectedText: #{{ text.hex }}
+chat_outTimeText: #{{ overlay0.hex }}
+chat_outUpCall: #{{ green.hex }}
+chat_outVenueInfoSelectedText: #{{ text.hex }}
+chat_outVenueInfoText: #{{ text.hex }}
+chat_outViaBotNameText: #{{ blue.hex }}
+chat_outViews: #{{ text.hex }}
+chat_outViewsSelected: #{{ text.hex }}
+chat_outVoiceSeekbar: #{{ overlay0.hex }}
+chat_outVoiceSeekbarFill: #{{ text.hex }}
+chat_outVoiceSeekbarSelected: #{{ overlay0.hex }}
+chat_previewDurationText: #{{ base.hex }}
+chat_previewGameText: #{{ base.hex }}
+chat_recordTime: #{{ text.hex }}
+chat_recordVoiceCancel: #{{ overlay0.hex }}
+chat_recordedVoiceBackground: #{{ mauve.hex }}
+chat_recordedVoiceDot: #{{ base.hex }}
+chat_recordedVoicePlayPause: #{{ base.hex }}
+chat_recordedVoicePlayPausePressed: #{{ base.hex }}
+chat_recordedVoiceProgress: #{{ overlay0.hex }}
+chat_recordedVoiceProgressInner: #{{ text.hex }}
+chat_replyPanelClose: #{{ overlay0.hex }}
+chat_replyPanelIcons: #{{ rosewater.hex }}
+chat_replyPanelLine: #{{ rosewater.hex }}
+chat_replyPanelMessage: #{{ text.hex }}
+chat_replyPanelName: #{{ rosewater.hex }}
+chat_reportSpam: #{{ maroon.hex }}
+chat_searchPanelIcons: #{{ overlay0.hex }}
+chat_searchPanelText: #{{ text.hex }}
+chat_secretChatStatusText: #{{ overlay0.hex }}
+chat_secretTimeText: #{{ text.hex }}
+chat_secretTimerBackground: #{{ base.hex }}CC
+chat_secretTimerText: #{{ base.hex }}
+chat_selectedBackground: #{{ crust.hex }}44
+chat_sentError: #{{ maroon.hex }}
+chat_sentErrorIcon: #{{ base.hex }}
+chat_serviceIcon: #{{ base.hex }}
+chat_serviceLink: #{{ base.hex }}
+chat_serviceText: #{{ base.hex }}
+chat_serviceBackground: #{{ lavender.hex }}
+chat_shareBackground: #{{ overlay0.hex }}66
+chat_shareBackgroundSelected: #{{ overlay0.hex }}99
+chat_status: #{{ green.hex }}
+chat_stickerNameText: #{{ base.hex }}
+chat_stickerReplyLine: #{{ base.hex }}
+chat_stickerReplyMessageText: #{{ base.hex }}
+chat_stickerReplyNameText: #{{ base.hex }}
+chat_stickerViaBotNameText: #{{ base.hex }}
+chat_stickersHintPanel: #{{ base.hex }}
+chat_textSelectBackground: #{{ overlay0.hex }}66
+chat_topPanelBackground: #{{ mantle.hex }}
+chat_topPanelClose: #{{ subtext0.hex }}
+chat_topPanelLine: #{{ subtext0.hex }}
+chat_topPanelMessage: #{{ subtext0.hex }}
+chat_topPanelTitle: #{{ subtext0.hex }}
+chat_unreadMessagesStartArrowIcon: #{{ base.hex }}
+chat_unreadMessagesStartBackground: #{{ mauve.hex }}
+chat_unreadMessagesStartText: #{{ base.hex }}
+chats_actionBackground: #{{ green.hex }}
+chats_actionIcon: #{{ base.hex }}
+chats_actionMessage: #{{ subtext0.hex }}
+chats_actionPressedBackground: #{{ pink.hex }}
+chats_actionUnreadBackground: #{{ green.hex }}
+chats_actionUnreadIcon: #{{ base.hex }}
+chats_actionUnreadPressedBackground: #{{ green.hex }}
+chats_archiveBackground: #{{ surface0.hex }}
+chats_archiveIcon: #{{ text.hex }}
+chats_archivePinBackground: #{{ surface2.hex }}
+chats_archiveText: #{{ text.hex }}
+chats_attachMessage: #{{ blue.hex }}
+chats_date: #{{ surface2.hex }}
+chats_draft: #{{ mauve.hex }}
+chats_mentionIcon: #{{ base.hex }}
+chats_menuBackground: #{{ base.hex }}
+chats_menuCloud: #{{ base.hex }}
+chats_menuCloudBackgroundCats: #{{ blue.hex }}
+chats_menuItemCheck: #dc2286
+chats_menuItemIcon: #{{ overlay0.hex }}
+chats_menuItemText: #{{ subtext0.hex }}
+chats_menuName: #{{ text.hex }}
+chats_menuPhone: #{{ subtext0.hex }}
+chats_menuPhoneCats: #{{ subtext0.hex }}
+chats_menuTopBackgroundCats: #{{ crust.hex }}
+chats_message: #{{ text.hex }}
+chats_messageArchived: #{{ subtext0.hex }}
+chats_message_threeLines: #{{ subtext0.hex }}
+chats_muteIcon: #{{ overlay0.hex }}
+chats_name: #{{ text.hex }}
+chats_nameArchived: #{{ subtext0.hex }}
+chats_nameIcon: #{{ text.hex }}
+chats_nameMessage: #{{ blue.hex }}
+chats_nameMessageArchived: #{{ blue.hex }}
+chats_nameMessageArchived_threeLines: #{{ blue.hex }}
+chats_nameMessage_threeLines: #{{ blue.hex }}
+chats_onlineCircle: #{{ green.hex }}
+chats_pinnedIcon: #{{ subtext0.hex }}
+chats_pinnedOverlay: #{{ mantle.hex }}
+chats_secretIcon: #{{ green.hex }}
+chats_secretName: #{{ green.hex }}
+chats_sentCheck: #{{ green.hex }}
+chats_sentClock: #{{ green.hex }}
+chats_sentError: #{{ maroon.hex }}
+chats_sentErrorIcon: #{{ base.hex }}
+chats_sentReadCheck: #{{ green.hex }}
+chats_tabletSelectedOverlay: #0000000F
+chats_unreadCounter: #{{ green.hex }}
+chats_unreadCounterMuted: #{{ overlay0.hex }}
+chats_unreadCounterText: #{{ base.hex }}
+chats_verifiedBackground: #{{ blue.hex }}
+chats_verifiedCheck: #{{ base.hex }}
+checkbox: #{{ green.hex }}
+checkboxCheck: #{{ base.hex }}
+checkboxDisabled: #{{ overlay0.hex }}
+checkboxSquareBackground: #{{ blue.hex }}
+checkboxSquareCheck: #{{ base.hex }}
+checkboxSquareDisabled: #{{ overlay0.hex }}
+checkboxSquareUnchecked: #{{ subtext0.hex }}
+contacts_inviteBackground: #{{ green.hex }}
+contacts_inviteText: #{{ base.hex }}
+contextProgressInner1: #{{ blue.hex }}
+contextProgressInner2: #{{ blue.hex }}
+contextProgressInner3: #{{ overlay0.hex }}
+contextProgressInner4: #{{ overlay0.hex }}
+contextProgressOuter1: #{{ green.hex }}
+contextProgressOuter2: #{{ base.hex }}
+contextProgressOuter3: #{{ base.hex }}
+contextProgressOuter4: #{{ text.hex }}
+dialogBackground: #{{ base.hex }}
+dialogBackgroundGray: #{{ crust.hex }}
+dialogBadgeBackground: #{{ blue.hex }}
+dialogBadgeText: #{{ base.hex }}
+dialogButton: #{{ blue.hex }}
+dialogButtonSelector: #0000000F
+dialogCameraIcon: #{{ base.hex }}
+dialogCheckboxSquareBackground: #{{ blue.hex }}
+dialogCheckboxSquareCheck: #{{ base.hex }}
+dialogCheckboxSquareDisabled: #{{ overlay0.hex }}
+dialogCheckboxSquareUnchecked: #{{ subtext0.hex }}
+dialogFloatingButton: #{{ blue.hex }}
+dialogFloatingButtonPressed: #{{ blue.hex }}
+dialogFloatingIcon: #{{ base.hex }}
+dialogGrayLine: #{{ overlay0.hex }}
+dialogIcon: #{{ text.hex }}
+dialogInputField: #{{ subtext0.hex }}
+dialogInputFieldActivated: #{{ blue.hex }}
+dialogLineProgress: #{{ blue.hex }}
+dialogLineProgressBackground: #{{ overlay0.hex }}
+dialogLinkSelection: #{{ blue.hex }}33
+dialogProgressCircle: #{{ blue.hex }}
+dialogRadioBackground: #{{ overlay0.hex }}
+dialogRadioBackgroundChecked: #{{ blue.hex }}
+dialogRedIcon: #{{ maroon.hex }}
+dialogRoundCheckBox: #{{ blue.hex }}
+dialogRoundCheckBoxCheck: #{{ base.hex }}
+dialogScrollGlow: #{{ mantle.hex }}
+dialogSearchBackground: #{{ subtext0.hex }}
+dialogSearchHint: #{{ crust.hex }}
+dialogSearchIcon: #{{ crust.hex }}
+dialogSearchText: #{{ text.hex }}
+dialogShadowLine: #00000012
+dialogTextBlack: #{{ text.hex }}
+dialogTextBlue2: #{{ blue.hex }}
+dialogTextBlue3: #{{ blue.hex }}
+dialogTextBlue4: #{{ blue.hex }}
+dialogTextBlue: #2F81e66f5CC9
+dialogTextGray2: #{{ subtext1.hex }}
+dialogTextGray3: #{{ subtext1.hex }}
+dialogTextGray4: #{{ subtext0.hex }}
+dialogTextGray: #{{ subtext0.hex }}
+dialogTextHint: #{{ subtext0.hex }}
+dialogTextLink: #{{ rosewater.hex }}
+dialogTextRed2: #{{ maroon.hex }}
+dialogTextRed: #{{ maroon.hex }}
+dialogTopBackground: #{{ blue.hex }}
+dialog_inlineProgress: #{{ subtext0.hex }}
+dialog_inlineProgressBackground: #{{ crust.hex }}F6
+dialog_liveLocationProgress: #{{ blue.hex }}
+divider: #00000000
+emptyListPlaceholder: #{{ overlay0.hex }}
+fastScrollActive: #{{ blue.hex }}
+fastScrollInactive: #{{ overlay0.hex }}
+fastScrollText: #{{ base.hex }}
+featuredStickers_addButton: #{{ blue.hex }}
+featuredStickers_addButtonPressed: #{{ blue.hex }}
+featuredStickers_addedIcon: #{{ blue.hex }}
+featuredStickers_buttonProgress: #{{ base.hex }}
+featuredStickers_buttonText: #{{ base.hex }}
+featuredStickers_delButton: #{{ maroon.hex }}
+featuredStickers_delButtonPressed: #{{ maroon.hex }}
+featuredStickers_unread: #{{ blue.hex }}
+files_folderIcon: #999999
+files_folderIconBackground: #{{ surface1.hex }}
+files_iconText: #{{ base.hex }}
+graySection: #{{ surface1.hex }}
+groupcreate_cursor: #{{ rosewater.hex }}
+groupcreate_hintText: #{{ overlay0.hex }}
+groupcreate_sectionShadow: #00000000
+groupcreate_sectionText: #{{ subtext0.hex }}
+groupcreate_spanBackground: #{{ surface1.hex }}
+groupcreate_spanDelete: #{{ maroon.hex }}
+groupcreate_spanText: #{{ text.hex }}
+inappPlayerBackground: #{{ mantle.hex }}
+inappPlayerClose: #{{ subtext0.hex }}
+inappPlayerPerformer: #{{ text.hex }}
+inappPlayerPlayPause: #{{ blue.hex }}
+inappPlayerTitle: #{{ subtext0.hex }}
+key_chat_messagePanelVoiceLock: #A4A4A4
+key_chat_messagePanelVoiceLockBackground: #{{ base.hex }}
+key_chat_messagePanelVoiceLockShadow: #000000
+key_graySectionText: #7F8991
+key_player_progressCachedBackground: #E9EFF5
+key_sheet_other: #C9CDD3
+key_sheet_scrollUp: #E1E4E8
+listSelectorSDK21: #0000000F
+location_liveLocationProgress: #359FE5
+location_placeLocationBackground: #4CA8EA
+location_sendLiveLocationBackground: #FF6464
+location_sendLiveLocationIcon: #{{ base.hex }}
+location_sendLocationBackground: #6DA0D4
+location_sendLocationIcon: #{{ base.hex }}
+login_progressInner: #E1EAF2
+login_progressOuter: #62A0D0
+musicPicker_buttonBackground: #5CAFEA
+musicPicker_buttonIcon: #{{ base.hex }}
+musicPicker_checkbox: #29B6F7
+musicPicker_checkboxCheck: #{{ base.hex }}
+passport_authorizeBackground: #45ABEF
+passport_authorizeBackgroundSelected: #409DDB
+passport_authorizeText: #{{ base.hex }}
+picker_badge: #29B6F7
+picker_badgeText: #{{ base.hex }}
+picker_disabledButton: #999999
+picker_enabledButton: #19A7E8
+player_actionBar: #{{ base.hex }}
+player_actionBarItems: #8A8A8A
+player_actionBarSelector: #0000000F
+player_actionBarSubtitle: #8A8A8A
+player_actionBarTitle: #2F3438
+player_actionBarTop: #00000099
+player_background: #{{ base.hex }}
+player_button: #333333
+player_buttonActive: #4CA8EA
+player_placeholder: #A8A8A8
+player_placeholderBackground: #F0F0F0
+player_progress: #4B9FE3
+player_progressBackground: #E9EFF5
+player_time: #8C9296
+profile_actionBackground: #{{ text.hex }}
+profile_actionIcon: #{{ base.hex }}
+profile_actionPressedBackground: #{{ text.hex }}
+profile_creatorIcon: #{{ blue.hex }}
+profile_status: #{{ overlay0.hex }}
+profile_title: #{{ text.hex }}
+profile_verifiedBackground: #{{ blue.hex }}
+profile_verifiedCheck: #{{ base.hex }}
+progressCircle: #527DA3
+radioBackground: #B3B3B3
+radioBackgroundChecked: #37A9F0
+returnToCallBackground: #44A1E3
+returnToCallText: #{{ base.hex }}
+sessions_devicesImage: #969696
+sharedMedia_actionMode: #4687B3
+sharedMedia_linkPlaceholder: #F0F3F5
+sharedMedia_linkPlaceholderText: #B7BEC3
+sharedMedia_photoPlaceholder: #EDF3F7
+sharedMedia_startStopLoadIcon: #36A2EE
+stickers_menu: #B6BDC5
+stickers_menuSelector: #0000000F
+switch2Track: #{{ overlay0.hex }}
+switch2TrackChecked: #{{ green.hex }}
+switchTrack: #{{ overlay0.hex }}
+switchTrackBlue: #{{ overlay0.hex }}
+switchTrackBlueChecked: #{{ green.hex }}
+switchTrackBlueSelector: #404A5317
+switchTrackBlueSelectorChecked: #02478121
+switchTrackBlueThumb: #{{ base.hex }}
+switchTrackBlueThumbChecked: #{{ base.hex }}
+switchTrackChecked: #{{ green.hex }}
+undo_background: #272F38EA
+undo_cancelColor: #85CAFF
+undo_infoColor: #{{ base.hex }}
+windowBackgroundCheckText: #{{ base.hex }}
+windowBackgroundChecked: #{{ blue.hex }}
+windowBackgroundGray: #{{ mantle.hex }}
+windowBackgroundGrayShadow: #00000000
+windowBackgroundUnchecked: #{{ overlay0.hex }}
+windowBackgroundWhite: #{{ base.hex }}
+windowBackgroundWhiteBlackText: #{{ text.hex }}
+windowBackgroundWhiteBlueButton: #{{ blue.hex }}
+windowBackgroundWhiteBlueHeader: #{{ blue.hex }}
+windowBackgroundWhiteBlueIcon: #{{ blue.hex }}
+windowBackgroundWhiteBlueText2: #{{ blue.hex }}
+windowBackgroundWhiteBlueText3: #{{ blue.hex }}
+windowBackgroundWhiteBlueText4: #{{ blue.hex }}
+windowBackgroundWhiteBlueText5: #{{ blue.hex }}
+windowBackgroundWhiteBlueText6: #{{ blue.hex }}
+windowBackgroundWhiteBlueText7: #{{ blue.hex }}
+windowBackgroundWhiteBlueText: #{{ blue.hex }}
+windowBackgroundWhiteGrayIcon: #{{ overlay0.hex }}
+windowBackgroundWhiteGrayLine: #98A0A7
+windowBackgroundWhiteGrayText2: #{{ subtext0.hex }}
+windowBackgroundWhiteGrayText3: #{{ subtext0.hex }}
+windowBackgroundWhiteGrayText4: #{{ subtext0.hex }}
+windowBackgroundWhiteGrayText5: #{{ subtext0.hex }}
+windowBackgroundWhiteGrayText6: #{{ subtext0.hex }}
+windowBackgroundWhiteGrayText7: #{{ subtext0.hex }}
+windowBackgroundWhiteGrayText8: #{{ subtext0.hex }}
+windowBackgroundWhiteGrayText: #{{ subtext0.hex }}
+windowBackgroundWhiteGreenText2: #{{ green.hex }}
+windowBackgroundWhiteGreenText: #{{ green.hex }}
+windowBackgroundWhiteHintText: #98A0A7
+windowBackgroundWhiteInputField: #F2F4F5
+windowBackgroundWhiteInputFieldActivated: #{{ blue.hex }}
+windowBackgroundWhiteLinkSelection: #{{ rosewater.hex }}33
+windowBackgroundWhiteLinkText: #{{ rosewater.hex }}
+windowBackgroundWhiteRedText2: #{{ maroon.hex }}
+windowBackgroundWhiteRedText3: #{{ maroon.hex }}
+windowBackgroundWhiteRedText4: #{{ maroon.hex }}
+windowBackgroundWhiteRedText5: #{{ maroon.hex }}
+windowBackgroundWhiteRedText6: #{{ maroon.hex }}
+windowBackgroundWhiteRedText: #{{ maroon.hex }}
+windowBackgroundWhiteValueText: #{{ blue.hex }}

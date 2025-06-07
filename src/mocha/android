@@ -14,8 +14,8 @@ actionBarDefaultArchivedSelector: #9399b2
 actionBarDefaultArchivedTitle: #cdd6f4
 actionBarDefaultIcon: #a6adc8
 actionBarDefaultSearch: #a6adc8
-actionBarDefaultSearchArchivedPlaceholder: #11111b88
-actionBarDefaultSearchPlaceholder: #11111b88
+actionBarDefaultSearchArchivedPlaceholder: #11111b80
+actionBarDefaultSearchPlaceholder: #11111b80
 actionBarDefaultSelector: #9399b2
 actionBarDefaultSubmenuBackground: #1e1e2e
 actionBarDefaultSubmenuItem: #cdd6f4
@@ -116,7 +116,7 @@ chat_goDownButtonCounter: #1e1e2e
 chat_goDownButtonCounterBackground: #a6e3a1
 chat_goDownButtonIcon: #a6adc8
 chat_goDownButtonShadow: #000000
-chat_inAudioCacheSeekbar: #1e1e2e3F
+chat_inAudioCacheSeekbar: #1e1e2e40
 chat_inAudioDurationSelectedText: #cdd6f4
 chat_inAudioDurationText: #a6adc8
 chat_inAudioPerfomerSelectedText: #cdd6f4
@@ -218,7 +218,7 @@ chat_messagePanelVoiceShadow: #0000000D
 chat_messageTextIn: #cdd6f4
 chat_messageTextOut: #cdd6f4
 chat_muteIcon: #6c7086
-chat_outAudioCacheSeekbar: #1e1e2e3F
+chat_outAudioCacheSeekbar: #1e1e2e40
 chat_outAudioDurationSelectedText: #cdd6f4
 chat_outAudioDurationText: #a6adc8
 chat_outAudioPerfomerSelectedText: #cdd6f4

@@ -1,47 +1,59 @@
-name: {{.Name}}
-shortname: ctp_{{.Shortname}}
-dark: {{.Dark}}
-wallpaper: {{.Wallpaper}} // link to cloud wallpaper
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "src/{{ flavor.identifier }}/desktop"
+wallpapers:
+  latte: StNc4pYj_FABAAAAOsWwdh_6J6I
+  frappe: psvRMp-j_VACAAAA6D6zUK3aWhs
+  macchiato: wrjDzHXw_VADAAAAYTt1ohXDJN4
+  mocha: iZumGdCBBVEBAAAAkZ7Gl0zmXZk
+---
+name: Catppuccin {{ flavor.name }}
+shortname: ctp_{{ flavor.identifier }}
+dark: {{ flavor.dark | as_str }}
+wallpaper: t.me/bg/{{ wallpapers[flavor.identifier] }} // link to cloud wallpaper
 
 // Palette
 
-ctpBase: {{.Base}};
-ctpBaseTransparent: {{.Base}}cc;
-ctpBlue: {{.Blue}};
-ctpCrust: {{.Crust}};
-ctpCrustShadow: {{.Crust}}11;
-ctpCrustTransparent: {{.Crust}}cc;
-ctpFlamingo: {{.Flamingo}};
-ctpGreen: {{.Green}};
-ctpLavender: {{.Lavender}};
-ctpMantle: {{.Mantle}};
-ctpMantleTransparent: {{.Mantle}}cc;
-ctpMaroon: {{.Maroon}};
-ctpMauve: {{.Mauve}};
-ctpOverlay0: {{.Overlay0}};
-ctpOverlay1: {{.Overlay1}};
-ctpOverlay1Transparent: {{.Overlay1}}cc;
-ctpOverlay2: {{.Overlay2}};
-ctpOverlay2Transparent: {{.Overlay2}}cc;
-ctpPeach: {{.Peach}};
-ctpPink: {{.Pink}};
-ctpRed: {{.Red}};
-ctpRosewater: {{.Rosewater}};
-ctpRosewaterTransparent: {{.Rosewater}}cc;
-ctpSapphire: {{.Sapphire}};
-ctpSky: {{.Sky}};
-ctpSubtext0: {{.Subtext0}};
-ctpSubtext1: {{.Subtext1}};
-ctpSurface0: {{.Surface0}};
-ctpSurface0Transparent: {{.Surface0}}cc;
-ctpSurface1: {{.Surface1}};
-ctpSurface1Transparent: {{.Surface1}}cc;
-ctpSurface2: {{.Surface2}};
-ctpSurface2Transparent: {{.Surface2}}cc;
-ctpTeal: {{.Teal}};
-ctpText: {{.Text}};
-ctpYellow: {{.Yellow}};
-ctpAccent: {{.Accent}};
+ctpBase: #{{ base.hex }};
+ctpBaseTransparent: #{{ base.hex }}cc;
+ctpBlue: #{{ blue.hex }};
+ctpCrust: #{{ crust.hex }};
+ctpCrustShadow: #{{ crust.hex }}11;
+ctpCrustTransparent: #{{ crust.hex }}cc;
+ctpFlamingo: #{{ flamingo.hex }};
+ctpGreen: #{{ green.hex }};
+ctpLavender: #{{ lavender.hex }};
+ctpMantle: #{{ mantle.hex }};
+ctpMantleTransparent: #{{ mantle.hex }}cc;
+ctpMaroon: #{{ maroon.hex }};
+ctpMauve: #{{ mauve.hex }};
+ctpOverlay0: #{{ overlay0.hex }};
+ctpOverlay1: #{{ overlay1.hex }};
+ctpOverlay1Transparent: #{{ overlay1.hex }}cc;
+ctpOverlay2: #{{ overlay2.hex }};
+ctpOverlay2Transparent: #{{ overlay2.hex }}cc;
+ctpPeach: #{{ peach.hex }};
+ctpPink: #{{ pink.hex }};
+ctpRed: #{{ red.hex }};
+ctpRosewater: #{{ rosewater.hex }};
+ctpRosewaterTransparent: #{{ rosewater.hex }}cc;
+ctpSapphire: #{{ sapphire.hex }};
+ctpSky: #{{ sky.hex }};
+ctpSubtext0: #{{ subtext0.hex }};
+ctpSubtext1: #{{ subtext1.hex }};
+ctpSurface0: #{{ surface0.hex }};
+ctpSurface0Transparent: #{{ surface0.hex }}cc;
+ctpSurface1: #{{ surface1.hex }};
+ctpSurface1Transparent: #{{ surface1.hex }}cc;
+ctpSurface2: #{{ surface2.hex }};
+ctpSurface2Transparent: #{{ surface2.hex }}cc;
+ctpTeal: #{{ teal.hex }};
+ctpText: #{{ text.hex }};
+ctpYellow: #{{ yellow.hex }};
+ctpAccent: ctpGreen;
 
 // Theme variables
 
